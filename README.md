@@ -49,7 +49,7 @@ Jenkins docker compose file (and instructions) to configure your jenkins control
    - Limit the scope to **System**.
    - Give the credential an **ID**.
    - Provide a **description**.
-   - Enter a **username**.
+   - Enter a **username** : jenkins , you must use jenkins as it is the default user created by the ssh-agent image.
    - Under Private Key check **Enter directly**.
    - Paste the content of private key in the text box.
 
